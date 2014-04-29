@@ -7,12 +7,12 @@ package adaboost;
 
 /**
  *
- * @author Saswat
+ * @author saswat
  */
 public class Adaboosting {
 public static void main(String args[])
     {
-     String x="data2.txt";
+     String x=""; //The data file you want to provide
       File_info f=new File_info(x);
       Iteration I[]=new Iteration[f.T];
       I[0]=new Iteration(f);
