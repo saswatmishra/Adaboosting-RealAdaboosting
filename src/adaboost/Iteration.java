@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Saswat
+ * @author saswat
  */
 public class Iteration {
 
@@ -339,7 +339,7 @@ int returnFunc(Iteration I,File_info f,int j)
             {
               flag=false;
             }
-            fstream = new FileWriter("C:\\Users\\Saswat\\Documents\\MS-2nd sem\\Machine Learning\\inputfiles\\graded-homework-2\\data5.txt",flag);
+            fstream = new FileWriter("",flag);//file path
             BufferedWriter out = new BufferedWriter(fstream);
             out.write("Iteration Number "+no);
             out.newLine();
