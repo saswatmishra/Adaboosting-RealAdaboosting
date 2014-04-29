@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Saswat
+ * @author saswat
  */
 public class RealIteration {
 int no=1;
@@ -42,7 +42,7 @@ void print_into_file(File_info f,String x)
             {
               flag=false;
             }
-            fstream = new FileWriter("C:\\Users\\Saswat\\Documents\\MS-2nd sem\\Machine Learning\\inputfiles\\data1.txt"+x,flag);
+            fstream = new FileWriter("--------"+x,flag); // ------- -> writing output
             BufferedWriter out = new BufferedWriter(fstream);
             out.write("Iteration Number "+no);
             out.newLine();
