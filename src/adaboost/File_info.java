@@ -26,7 +26,7 @@ public class File_info {
         try {
             FileInputStream fis = null;
             //fis = new FileInputStream(file);
-            fis = new FileInputStream("C:\\Users\\Saswat\\Documents\\MS-2nd sem\\Machine Learning\\inputfiles\\graded-homework-2\\adaboost-1.dat");
+            fis = new FileInputStream("");
             //exception catch 
             //file =data.txt
             BufferedInputStream bis = new BufferedInputStream(fis);
